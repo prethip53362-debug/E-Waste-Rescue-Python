@@ -1,6 +1,5 @@
 name: Build E-Waste Rescue APK
-
-on:
+'on':
 workflow_dispatch:
 push:
 branches:
