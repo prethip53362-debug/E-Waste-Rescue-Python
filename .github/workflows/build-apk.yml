@@ -1,4 +1,6 @@
 name: Build E-Waste Rescue APK
+name: Build E-Waste Rescue APK
+
 'on':
 workflow_dispatch:
 push:
@@ -8,10 +10,9 @@ branches:
 jobs:
 build:
 runs-on: ubuntu-22.04
-
 steps:
-  - name: Checkout project
-    uses: actions/checkout@v4
+- name: Checkout project
+uses: actions/checkout@v4
 
   - name: Set up Java
     uses: actions/setup-java@v4
